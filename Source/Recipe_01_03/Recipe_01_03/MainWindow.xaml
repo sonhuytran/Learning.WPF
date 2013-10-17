@@ -1,0 +1,9 @@
+﻿<Window x:Class="Recipe_01_03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        xmlns:my="clr-namespace:Recipe_01_03">
+    <Grid>
+        <my:MyControl HorizontalAlignment="Left" Margin="100,92,0,0" x:Name="myControl1" VerticalAlignment="Top" />
+    </Grid>
+</Window>
