@@ -1,0 +1,13 @@
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\bin\Debug\Recipe_01_07.exe
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\bin\Debug\Recipe_01_07.pdb
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\MainWindow.baml
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\MainWindow.g.cs
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\App.g.cs
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\Recipe_01_07_MarkupCompile.cache
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\Recipe_01_07.g.resources
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\Recipe_01_07.Properties.Resources.resources
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\Recipe_01_07.exe
+C:\Users\mtpham\Documents\GitHub\Learning.WPF\Source\Recipe_01_07\Recipe_01_07\obj\x86\Debug\Recipe_01_07.pdb
