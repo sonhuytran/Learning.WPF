@@ -1,15 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Diagnostics;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Recipe_01_14
 {
@@ -21,6 +12,17 @@ namespace Recipe_01_14
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void btnCreateNewInstance_Click(object sender, RoutedEventArgs e)
+        {
+            Process process = new Process();
+            process.StartInfo.FileName = string.Format(@"{0}\{1}",
+                Environment.CurrentDirectory,
+                Application.ResourceAssembly.GetName().Name);
+            process.StartInfo.Arguments = tbxArgs.Text;
+
+            process.Start();
         }
     }
 }
