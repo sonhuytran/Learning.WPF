@@ -1,0 +1,28 @@
+﻿<Window x:Class="Recipe_01_08.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Recipe_01_08"
+        Title="MainWindow" Height="350" Width="350">
+    <UniformGrid>
+        <Button Name="btnClickMe"
+                Margin="10"
+                Content="Click Me !!!"
+                Click="uiElement_Click"/>
+        <Border BorderThickness="1"
+                BorderBrush="Black"
+                Background="Transparent"
+                Margin="10"
+                local:MainWindow.Rotation="3.14"
+                MouseLeftButtonDown="uiElement_Click"/>
+        <ListView Margin="10"
+                  PreviewMouseLeftButtonDown="uiElement_Click"
+                  local:MainWindow.Rotation="1.57">
+            <ListViewItem Content="Item1" />
+            <ListViewItem Content="Item2" />
+            <ListViewItem Content="Item3" />
+            <ListViewItem Content="Item4" />
+        </ListView>
+        <local:UserControl1 Margin="10"
+                            local:MainWindow.Rotation="1.0"/>
+    </UniformGrid>
+</Window>
