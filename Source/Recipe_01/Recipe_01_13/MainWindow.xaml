@@ -1,0 +1,13 @@
+﻿<Window x:Class="Recipe_01_13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="102" Width="300">
+    <StackPanel>
+        <TextBox Name="tbxUserText"
+                 Margin="10, 10, 10, 5"
+                 Text="Enter some text..."/>
+        <Button Margin="10, 5, 10, 10"
+                Content="Open a new window..."
+                Click="Button_Click"/>
+    </StackPanel>
+</Window>
