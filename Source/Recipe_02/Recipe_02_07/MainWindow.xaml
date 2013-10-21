@@ -1,0 +1,34 @@
+﻿<Window x:Class="Recipe_02_07.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <TabControl TabStripPlacement="Left">
+        <TabItem Header="Tab 1">
+            <StackPanel HorizontalAlignment="Center">
+                <Button Content="Button _1" Margin="5" />
+                <Button Content="Button _2" Margin="5" />
+                <Button Content="Button _3" Margin="5" />
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="Tab 2"
+                 IsSelected="True">
+            <StackPanel HorizontalAlignment="Center">
+                <Button Content="Button _A" Margin="5" />
+                <Button Content="Button _B" Margin="5" />
+                <Button Content="Button _C" Margin="5" />
+            </StackPanel>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Image Source="/Images/arrow.png"
+                       ToolTip="Arrow"
+                       Width="50"/>
+            </TabItem.Header>
+            <StackPanel HorizontalAlignment="Center">
+                <Button Content="Button _X" Margin="5" />
+                <Button Content="Button _Y" Margin="5" />
+                <Button Content="Button _Z" Margin="5" />
+            </StackPanel>
+        </TabItem>
+    </TabControl>
+</Window>
