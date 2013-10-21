@@ -11,11 +11,11 @@
                   Margin="5"
                   Header="Simple Text">
             <StackPanel>
-                <RadioButton Content="Radio 1" IsChecked="True" Margin="5" />
-                <RadioButton Content="Radio 2" Margin="5" />
-                <RadioButton Content="Radio 3" Margin="5" />
-                <RadioButton Content="Radio 4" Margin="5" />
-                <RadioButton Content="Radio 5" Margin="5" />
+                <RadioButton Content="Radio _1" IsChecked="True" Margin="5" />
+                <RadioButton Content="Radio _2" Margin="5" />
+                <RadioButton Content="Radio _3" Margin="5" />
+                <RadioButton Content="Radio _4" Margin="5" />
+                <RadioButton Content="Radio _5" Margin="5" />
             </StackPanel>
         </GroupBox>
         <GroupBox Grid.Column="1"
@@ -28,11 +28,11 @@
                 </StackPanel>                
             </GroupBox.Header>
             <StackPanel>
-                <RadioButton Content="Radio A" IsChecked="True" Margin="5" />
-                <RadioButton Content="Radio B" Margin="5" />
-                <RadioButton Content="Radio C" Margin="5" />
-                <RadioButton Content="Radio D" Margin="5" />
-                <RadioButton Content="Radio E" Margin="5" />
+                <RadioButton Content="Radio _A" IsChecked="True" Margin="5" />
+                <RadioButton Content="Radio _B" Margin="5" />
+                <RadioButton Content="Radio _C" Margin="5" />
+                <RadioButton Content="Radio _D" Margin="5" />
+                <RadioButton Content="Radio _E" Margin="5" />
             </StackPanel>
         </GroupBox>
     </Grid>
