@@ -1,0 +1,47 @@
+﻿<Window x:Class="Recipe_02_13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="150" Width="200">
+    <StackPanel>
+        <Popup Name="popRecipe02_13"
+               Height="150" Width="200"
+               AllowsTransparency="True"
+               HorizontalOffset="1cm"
+               Placement="Right"
+               StaysOpen="True">
+            <Border BorderBrush="Orange"
+                    BorderThickness="1"
+                    Margin="5"
+                    Background="White">
+                <DockPanel LastChildFill="True"
+                           Margin="5">
+                    <TextBlock Text="A WPF Popup"
+                               DockPanel.Dock="Top"
+                               HorizontalAlignment="Center"
+                               FontSize="16"/>                    
+                    <Button Name="btnClosePopup"
+                            Content="Close"
+                            DockPanel.Dock="Bottom"
+                            Click="btnClosePopup_Click"
+                            HorizontalAlignment="Right"
+                            MaxHeight="23"/>
+                    <Image DockPanel.Dock="Top"
+                           Source="/Images/arrow.png"
+                           Stretch="None"/>
+                </DockPanel>
+            </Border>
+        </Popup>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Margin" Value="2" />
+                    <EventSetter Event="Click" Handler="btnShowPopup_Click" />
+                </Style>
+            </StackPanel.Resources>
+            <Button Content="Show Popup" Name="btnShowPopup" />
+            <Button Content="Fade Popup" Name="btnFadePopup" />
+            <Button Content="Scroll Popup" Name="btnScrollPopup" />
+            <Button Content="Slide Popup" Name="btnSlidePopup" />
+        </StackPanel>
+    </StackPanel>
+</Window>
