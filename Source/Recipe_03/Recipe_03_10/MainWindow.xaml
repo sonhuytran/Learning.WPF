@@ -1,0 +1,26 @@
+﻿<Window x:Class="Recipe_03_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow"
+        SizeToContent="WidthAndHeight">
+    <DockPanel>
+        <StackPanel Orientation="Horizontal"
+                    DockPanel.Dock="Top">
+            <RepeatButton Name="btnLeft" Content="Left" Width="100"
+                      Click="btnLeft_Click"/>
+            <Slider Name="sldr" Width="200"
+                Minimum="0" Maximum="100" Value="50"
+                IsSnapToTickEnabled="True" TickFrequency="0.1"/>
+            <RepeatButton Name="btnRight" Content="Right" Width="100"
+                      Click="btnRight_Click"/>
+        </StackPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock>
+                <TextBlock.Text>
+                    <Binding ElementName="sldr"
+                             Path="Value"/>
+                </TextBlock.Text>
+            </TextBlock>
+        </StatusBar>
+    </DockPanel>    
+</Window>
