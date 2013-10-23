@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualBasic.ApplicationServices;
 using System;
-using System.Windows;
 
 namespace Recipe_01_14
 {
