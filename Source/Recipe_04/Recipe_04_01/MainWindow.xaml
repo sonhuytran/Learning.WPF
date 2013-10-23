@@ -5,6 +5,6 @@
         Title="MainWindow"
         SizeToContent="WidthAndHeight">
     <Grid>
-        <Recipe_04_01:FileInput />
+        <Recipe_04_01:FileInput>C:\Readme.txt</Recipe_04_01:FileInput>
     </Grid>
 </Window>

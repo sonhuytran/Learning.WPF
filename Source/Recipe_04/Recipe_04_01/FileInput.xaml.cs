@@ -1,12 +1,14 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 using Microsoft.Win32;
+using System.Windows.Markup;
 
 namespace Recipe_04_01
 {
     /// <summary>
     /// Interaction logic for FileInput.xaml
     /// </summary>
+    [ContentProperty("SelectedFileName")]
     public partial class FileInput : UserControl
     {
         public FileInput()
@@ -37,7 +39,7 @@ namespace Recipe_04_01
                 return this.GetValue(SelectedFileNameProperty) as string;
             }
 
-            private set
+            set
             {
                 this.SetValue(SelectedFileNameProperty, value);
             }
