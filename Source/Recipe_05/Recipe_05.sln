@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe_05_01", "Recipe_05_0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe_05_02", "Recipe_05_02\Recipe_05_02.csproj", "{173F4DF8-5875-411C-B817-3E50FEADC131}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe_05_03", "Recipe_05_03\Recipe_05_03.csproj", "{7EEEFE91-D231-4808-8C71-95E5A63A9FB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{173F4DF8-5875-411C-B817-3E50FEADC131}.Debug|x86.Build.0 = Debug|x86
 		{173F4DF8-5875-411C-B817-3E50FEADC131}.Release|x86.ActiveCfg = Release|x86
 		{173F4DF8-5875-411C-B817-3E50FEADC131}.Release|x86.Build.0 = Release|x86
+		{7EEEFE91-D231-4808-8C71-95E5A63A9FB5}.Debug|x86.ActiveCfg = Debug|x86
+		{7EEEFE91-D231-4808-8C71-95E5A63A9FB5}.Debug|x86.Build.0 = Debug|x86
+		{7EEEFE91-D231-4808-8C71-95E5A63A9FB5}.Release|x86.ActiveCfg = Release|x86
+		{7EEEFE91-D231-4808-8C71-95E5A63A9FB5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

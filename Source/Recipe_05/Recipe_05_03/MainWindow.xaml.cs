@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace Recipe_05_02
+namespace Recipe_05_03
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
