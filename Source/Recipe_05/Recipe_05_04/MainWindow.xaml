@@ -14,7 +14,7 @@
             <RowDefinition Height="26"/>
             <RowDefinition Height="26"/>
             <RowDefinition Height="26"/>
-            <RowDefinition Height="26"/>
+            <RowDefinition Height="31"/>
             <RowDefinition Height="10"/>
             <RowDefinition Height="26"/>
         </Grid.RowDefinitions>
@@ -41,15 +41,22 @@
             VerticalAlignment="Center" Margin="5"/>
         <TextBox
             Text="{Binding Path=Age, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"
-            Grid.Row="2" Grid.Column="1"/>
+            Grid.Row="2" Grid.Column="1"
+            />
 
         <TextBlock
             Text="Occupation"
             Grid.Row="3" Grid.Column="0"
             VerticalAlignment="Center" Margin="5"/>
-        <TextBox
-            Text="{Binding Path=Occupation, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"
-            Grid.Row="3" Grid.Column="1"/>
+        <ComboBox
+            x:Name="cboOccupation" Text="{Binding Path=Occupation, Mode=TwoWay}"
+            IsEditable="False"
+            Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left"
+            Margin="4" Width="140">
+            <ComboBoxItem>Red Devil</ComboBoxItem>
+            <ComboBoxItem>MU's Player</ComboBoxItem>
+            <ComboBoxItem>Ril Deved</ComboBoxItem>
+        </ComboBox>
 
         <TextBlock
             Text="Description"
