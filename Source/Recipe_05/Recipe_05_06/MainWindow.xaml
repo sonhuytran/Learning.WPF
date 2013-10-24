@@ -33,7 +33,8 @@
     </Window.Resources>
     
     <Grid>
-        <ListBox ItemsSource="{Binding Source={StaticResource ResourceKey=CountriesXML},
+        <ListBox
+            ItemsSource="{Binding Source={StaticResource ResourceKey=CountriesXML},
             XPath=/Countries/Country/@Name}"/>
     </Grid>
 </Window>
