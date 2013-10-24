@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe_05_01", "Recipe_05_01\Recipe_05_01.csproj", "{3B73D629-2467-4D81-83AA-BA5B465EBDAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recipe_05_02", "Recipe_05_02\Recipe_05_02.csproj", "{173F4DF8-5875-411C-B817-3E50FEADC131}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{3B73D629-2467-4D81-83AA-BA5B465EBDAD}.Debug|x86.Build.0 = Debug|x86
 		{3B73D629-2467-4D81-83AA-BA5B465EBDAD}.Release|x86.ActiveCfg = Release|x86
 		{3B73D629-2467-4D81-83AA-BA5B465EBDAD}.Release|x86.Build.0 = Release|x86
+		{173F4DF8-5875-411C-B817-3E50FEADC131}.Debug|x86.ActiveCfg = Debug|x86
+		{173F4DF8-5875-411C-B817-3E50FEADC131}.Debug|x86.Build.0 = Debug|x86
+		{173F4DF8-5875-411C-B817-3E50FEADC131}.Release|x86.ActiveCfg = Release|x86
+		{173F4DF8-5875-411C-B817-3E50FEADC131}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
